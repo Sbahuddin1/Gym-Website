@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join us</title>
+    <link rel="stylesheet" href="css/stylepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Tilt Warp', cursive;
+        }
+        .header {
+            font-family: 'Tilt Warp', cursive;
+        }
+
+        body {
+            height: 700px;    
+            background: url(imagesGym/sports-1452965_1920.jpg);     
+            background-size: cover;  
+        }
+
+        .nav {
+            background-color: whitesmoke;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            margin-left: -5px;
+        }
+
+        .navlist li {
+            display: inline-block;
+        }
+
+        .navlist li a {
+            color: black;
+            text-decoration: none;
+            padding: 15px 30px;
+            font-size: 25px;
+            cursor: pointer;
+        }
+
+        .navlist li a:hover,
+        .navlist li a:active {
+            color: rgb(131, 131, 116);
+        }
+
+        .btn {
+            float: right;
+            margin-top: 2px;
+        }
+
+        .btn a{
+            background-color: black;
+            color: ivory;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 15px;
+            margin-top: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .btn a:hover,
+        .btn a:active {
+            color: rgb(224, 224, 207);
+        }
+
+        #signup:hover{
+            color: rgb(224, 224, 207);
+        }
+
+        .navlist li img {
+            width: 40px;
+            border-radius: 40px;
+            margin-right: 210px;
+            margin-left: -5px;
+
+        }
+
+        .container {
+            padding: 5px 20px 5px 30px;
+            margin: auto;
+            margin-top: 50px;
+            width: fit-content;
+            display: block;
+            text-align: center;
+            border-radius: 10px;
+            background:whitesmoke;
+            border: 4px solid black;
+        }
+
+        .form-group input {
+            
+            margin-top: 100px;
+            margin: auto;
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px 100px 10px 100px;
+            margin: 10px;
+            border: 2px solid black;
+           font-size: larger;
+        }
+
+        .form-group select{
+            width: 160px;
+            padding: 5px;
+            background-color: whitesmoke;
+            border-radius: 5px;
+            border-radius: none;
+            border: none;
+            font-size: larger;
+        }
+        #sub{
+            margin-left: 350px;
+        }
+        .sign{
+            display: block;
+            margin: auto;
+            width: fit-content;
+            margin-top: 150px;
+        }
+        .sign input{
+            border: 2px solid black;
+            height: 40px;
+            width: 385px;
+            font-size:larger;
+            border-radius: 10px;
+            padding-left: 15px;
+        }
+
+        #signup{
+            background-color: black;
+            color: whitesmoke;
+            padding: 8px;
+            border-radius: 10px;
+            margin-right: 15px;
+            margin-top: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            text-decoration: none;
+            border: none;
+                        
+        }
+        #sub{
+            background-color: black;
+            color: whitesmoke;
+            padding: 8px;
+            border-radius: 10px;
+            margin-right: 15px;
+            margin-top: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            text-decoration: none;
+            border: none;
+        }
+        #sub:hover{
+            color: rgb(224, 224, 207);
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <nav class="nav">
+            <ul class="navlist">
+                <li><img src="imagesGym/dumbbell-gym-logo-design-stock-vector-illustration-isolated-on-white-background-2D6RN8K (2).jpg"
+                        alt="logo"></li>
+                <li><a href="/"> <strong>Home</strong> </a></li>
+                <li><a href="/About"> <strong>About Us</strong> </a></li>
+                <li><a href="/gallery"> <strong>Gallery</strong> </a></li>
+                <li><a href="/mission"> <strong>Our Mission</strong> </a></li>
+                <div class="btn">
+                    <buttton class="btn"><a href="/contact">Contact</a></buttton>
+                    
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="sign">
+            <input type="text" placeholder="Email">
+            <button class="btn2" id="signup">Sign Up</button>
+        </div>
+
+    <div class="container">
+
+        <form action="noaction.php"></form>
+
+        <div class="form-group">
+            <input type="text" placeholder="Name">
+        </div>
+        <div class="form-group">
+            Male<input type="radio" name="gender">
+            Female<input type="radio" name="gender">
+            Rather not say<input type="radio" name="gender">
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Age">
+        </div>
+        <div class="form-group">
+            <select name="car" class="form-group">
+                <option value="lhr" selected>Lahore</option>
+                <option value="isl">Islamabad</option>
+                <option value="krc">Karachi</option>
+                <option value="mltn">Multan</option>
+                <option value="pshwr">Peshawar</option>
+                <option value="qta">Quetta</option>
+                <option value="slkt">Sialkot</option>
+                <option value="abtabd">Abbotabad</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <input type="text" placeholder="Phone number">
+        </div>
+        <div>
+            <button id="sub" class="btn2">Submit</button>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+</body>
+
+</html>
